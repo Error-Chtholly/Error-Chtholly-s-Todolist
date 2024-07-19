@@ -49,7 +49,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 2rem;
     color: white;
     font-style: italic;
-    font-family: "幼圆";
+    font-family: "Consolas";
     font-weight: bolder;
     text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
 }
@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 2rem;
     color: white;
     font-style: italic;
-    font-family: "幼圆";
+    font-family: "Consolas";
     font-weight: bolder;
     text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
 }
