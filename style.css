@@ -1,0 +1,202 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #ff8cfd, #ffffff);
+    background-repeat: no-repeat;
+}
+
+html::-webkit-scrollbar {
+    /* 这里设置拖动条样式 */
+    width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #d400ff, #2f00ff);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 1rem;
+}
+
+.container {
+    margin: 0.66rem;
+    padding: 0.44rem;
+    height: auto;
+    box-sizing: border-box;
+    border: 0.1rem solid #f6a1ff;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    margin: 0rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    color: white;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+}
+
+.listContainer h1 {
+    margin: 0rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    color: white;
+    font-style: italic;
+    font-family: "幼圆";
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+}
+
+.listContainer2 h1 {
+    margin: 0rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    color: white;
+    font-style: italic;
+    font-family: "幼圆";
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+}
+
+.container .input-todo {
+    margin: 0.24rem 0rem 0.5rem 0rem;
+    height: auto;
+    width: 44%;
+    padding: 0.33rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    color: #d900ff;
+    text-shadow: 0rem 0rem 0.4rem rgb(255, 139, 232);
+    border: 0.1rem solid #f6a1ff;
+    box-shadow: 0rem 0rem 0.5rem rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    background: white;
+    transition: all 0.5s ease;
+}
+
+.container .input-todo:focus {
+    outline: none;
+    box-shadow: 0rem 0rem 0.5rem rgb(64, 0, 255);
+}
+
+.container .input-todo:hover {
+    outline: none;
+    box-shadow: 0rem 0rem 0.5rem rgb(64, 0, 255);
+}
+
+.container .add-todo {
+    margin: 0.24rem 0rem 0rem 0rem;
+    height: auto;
+    width: auto;
+    padding: 0.33rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    color: #d900ff;
+    text-shadow: 0rem 0rem 0.4rem rgb(255, 139, 232);
+    border: 0.1rem solid #f6a1ff;
+    box-shadow: 0rem 0rem 0.5rem rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    background: linear-gradient(to bottom, #ff9bfa, #ffffff);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container .add-todo:hover {
+    box-shadow: 0rem 0rem 0.5rem rgb(64, 0, 255);
+    text-shadow: 0rem 0rem 0.4rem rgb(255, 133, 235);
+}
+
+.listContainer {
+    display: none;
+    margin: 0.66rem;
+    padding: 0.44rem;
+    height: auto;
+    bottom: 0.2rem;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+    line-height: 3.3rem;
+
+    border: 0.1rem solid #f6a1ff;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+}
+
+.listContainer button,
+.listContainer2 button {
+    margin: 0;
+    height: auto;
+    width: auto;
+    padding: 0.33rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    color: #d900ff;
+    margin-left: 1.44rem;
+    text-shadow: 0rem 0rem 0.4rem rgb(255, 139, 232);
+    border: 0.1rem solid #f6a1ff;
+    box-shadow: 0rem 0rem 0.5rem rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    background: linear-gradient(to bottom, #ff9bfa, #ffffff);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.listContainer button:hover,
+.listContainer2 button:hover {
+    outline: none;
+    box-shadow: 0rem 0rem 0.5rem rgb(64, 0, 255);
+}
+
+.listContainer span {
+    margin: 0rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+}
+
+.listContainer2 {
+    display: none;
+    margin: 0.66rem;
+    padding: 0.44rem;
+    height: auto;
+    bottom: 0.2rem;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    font-family: "Consolas";
+    font-weight: lighter;
+    text-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+    line-height: 3.3rem;
+
+    border: 0.1rem solid #f6a1ff;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.5rem rgba(144, 0, 255, 1);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+}
